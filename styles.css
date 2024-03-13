@@ -1,0 +1,265 @@
+/* Resetting Some Defaults */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #999999;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+    background-color: #333;
+    color: #ffffff;
+    padding: 20px 0;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.nav ul li {
+    margin-right: 20px;
+}
+
+.nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.nav ul li a:hover {
+    color: #f1c40f;
+}
+
+/* Call to Action Section Styles */
+.cta-section {
+    background: linear-gradient(to bottom, #000000, #808080);
+    color: #fff;
+    padding: 100px 0;
+    text-align: center;
+}
+
+.cta-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.cta-content h2 {
+    font-size: 38px;
+    margin-bottom: 20px;
+}
+
+.cta-content p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn-primary {
+    background-color: #f1c40f;
+    color: #333;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e0b81a;
+}
+
+.btn-secondary {
+    background-color: #333;
+    color: #fff;
+    margin-left: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-secondary:hover {
+    background-color: #555;
+}
+
+/* intro section styles */
+.introduction-section {
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    max-width: 92.5%;
+    border-radius: 5px;
+}
+
+/* Services Section Styles */
+.title-service {
+    text-align: center;
+    font-size: 200%;
+    text-decoration: solid;
+}
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.service-item1 {
+    flex: 0 1 calc(45% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    background-image: url(code2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+.service-item1:hover {
+    background-color: #f1c40f;
+}
+
+.service-item2 {
+    flex: 0 1 calc(45% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.service-item2:hover {
+    background-color: #f1c40f;
+}
+
+.service-item3 {
+    flex: 0 1 calc(45% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.service-item3:hover {
+    background-color: #f1c40f;
+}
+
+.service-item4 {
+    flex: 0 1 calc(45% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.service-item4:hover {
+    background-color: #f1c40f;
+}
+
+.service-item5 {
+    flex: 0 1 calc(45% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.service-item5:hover {
+    background-color: #f1c40f;
+}
+
+.service-item6 {
+    flex: 0 1 calc(45% - 20px);
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #fff;
+    text-align: center;
+    transition: background-color 0.3s ease;
+}
+.service-item6:hover {
+    background-color: #f1c40f;
+}
+
+.service-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #949494;
+}
+
+.price {
+    font-style: italic;
+}
+
+.banner {
+    text-align: center;
+    font-size: 200%;
+}
+
+.about-section {
+    padding: 20px 20px;
+    margin: 0 auto;
+    text-align: left;
+    max-width: 92.5%;
+    border-radius: 5px;
+}
+
+.who {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+
+.what {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+.where {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
+ .approach {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 40px;
+ }
+
+.why {
+    padding: 5px;
+    background-color: #fff;
+    border-radius: 12px;
+    margin-bottom: 40px;
+}
