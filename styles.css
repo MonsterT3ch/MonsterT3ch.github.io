@@ -7,19 +7,22 @@ body, h1, h2, h3, p, ul, li {
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     line-height: 1.6;
-    background-color: #999999;
-    color: #333;
+    background-color: #1a1a1a;
+    color: #ffffff;
 }
 
 .container {
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #333333;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
 }
 
 /* Header Styles */
 .header {
-    background-color: #333;
+    background-color: #333333;
     color: #ffffff;
     padding: 20px 0;
 }
@@ -47,13 +50,13 @@ body {
 }
 
 .nav ul li a:hover {
-    color: #f1c40f;
+    color: #1abc9c;
 }
 
 /* Call to Action Section Styles */
 .cta-section {
-    background: linear-gradient(to bottom, #000000, #808080);
-    color: #fff;
+    background: linear-gradient(to bottom, #16a085, #1abc9c);
+    color: #ffffff;
     padding: 100px 0;
     text-align: center;
 }
@@ -64,13 +67,15 @@ body {
 }
 
 .cta-content h2 {
-    font-size: 38px;
+    font-size: 48px;
     margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .cta-content p {
-    font-size: 18px;
+    font-size: 24px;
     margin-bottom: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .btn {
@@ -78,188 +83,119 @@ body {
     padding: 12px 24px;
     border: none;
     border-radius: 5px;
-    font-size: 16px;
+    font-size: 18px;
     cursor: pointer;
-}
-
-.btn-primary {
-    background-color: #f1c40f;
-    color: #333;
-    transition: background-color 0.3s ease;
-}
-
-.btn-primary:hover {
-    background-color: #e0b81a;
-}
-
-.btn-secondary {
-    background-color: #333;
+    background-color: #1abc9c;
     color: #fff;
-    margin-left: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     transition: background-color 0.3s ease;
 }
 
-.btn-secondary:hover {
-    background-color: #555;
+.btn:hover {
+    background-color: #16a085;
 }
 
-/* intro section styles */
+/* Introduction Section Styles */
 .introduction-section {
-    background-color: rgb(255, 255, 255);
-    padding: 20px 0px;
-    margin: auto;
-    margin-top: 20px;
+    background-color: #1a1a1a;
+    padding: 40px;
+    margin: 20px auto;
     text-align: center;
-    max-width: 92.5%;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+.intro-title {
+    color: #1abc9c;
+    font-size: 48px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.intro-description {
+    color: #ffffff;
+    font-size: 24px;
+    line-height: 1.6;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 /* Services Section Styles */
 .title-service {
     text-align: center;
-    font-size: 200%;
-    text-decoration: solid;
+    font-size: 32px;
+    color: #ffffff;
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
+
 .services-grid {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.service-item1 {
+.service-item {
     flex: 0 1 calc(45% - 20px);
     margin-bottom: 20px;
     padding: 20px;
-    border-radius: 5px;
-    background-color: #fff;
-    background-image: url(code2.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    color: #fff;
+    border-radius: 10px;
+    background-color: #1a1a1a;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease;
-}
-.service-item1:hover {
-    background-color: #f1c40f;
 }
 
-.service-item2 {
-    flex: 0 1 calc(45% - 20px);
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #fff;
-    text-align: center;
-    transition: background-color 0.3s ease;
-}
-.service-item2:hover {
-    background-color: #f1c40f;
+.service-item:hover {
+    background-color: #16a085;
 }
 
-.service-item3 {
-    flex: 0 1 calc(45% - 20px);
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #fff;
-    text-align: center;
-    transition: background-color 0.3s ease;
-}
-.service-item3:hover {
-    background-color: #f1c40f;
-}
-
-.service-item4 {
-    flex: 0 1 calc(45% - 20px);
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #fff;
-    text-align: center;
-    transition: background-color 0.3s ease;
-}
-.service-item4:hover {
-    background-color: #f1c40f;
-}
-
-.service-item5 {
-    flex: 0 1 calc(45% - 20px);
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #fff;
-    text-align: center;
-    transition: background-color 0.3s ease;
-}
-.service-item5:hover {
-    background-color: #f1c40f;
-}
-
-.service-item6 {
-    flex: 0 1 calc(45% - 20px);
-    margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 5px;
-    background-color: #fff;
-    text-align: center;
-    transition: background-color 0.3s ease;
-}
-.service-item6:hover {
-    background-color: #f1c40f;
+.service-details {
+    text-align: left;
 }
 
 .service-title {
-    font-size: 20px;
+    font-size: 24px;
+    color: #ffffff;
     margin-bottom: 10px;
-    color: #949494;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
 }
 
 .price {
     font-style: italic;
+    color: #ffffff;
 }
 
 .banner {
     text-align: center;
-    font-size: 200%;
+    font-size: 64px;
+    color: #ffffff;
+    padding: 100px 0;
+    background: radial-gradient(circle, #1abc9c 0%, #16a085 100%);
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 
 .about-section {
-    padding: 20px 20px;
-    margin: 0 auto;
+    padding: 40px;
+    margin: 20px auto;
     text-align: left;
-    max-width: 92.5%;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.3);
+    background-color: #1a1a1a;
 }
 
-.who {
-    padding: 5px;
-    background-color: #fff;
-    border-radius: 12px;
-    margin-bottom: 40px;
+.who, .what, .where, .approach, .why {
+    color: #ffffff;
+    margin-bottom: 20px;
 }
 
-.what {
-    padding: 5px;
-    background-color: #fff;
-    border-radius: 12px;
-    margin-bottom: 40px;
+/* Footer Section */
+.footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
 }
-.where {
-    padding: 5px;
-    background-color: #fff;
-    border-radius: 12px;
-    margin-bottom: 40px;
-}
- .approach {
-    padding: 5px;
-    background-color: #fff;
-    border-radius: 12px;
-    margin-bottom: 40px;
- }
 
-.why {
-    padding: 5px;
-    background-color: #fff;
-    border-radius: 12px;
-    margin-bottom: 40px;
+.footer p {
+    margin: 0;
 }
